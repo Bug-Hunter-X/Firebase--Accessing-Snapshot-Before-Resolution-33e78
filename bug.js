@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a property of a document snapshot before the `get()` or `onSnapshot()` promise resolves.  This often happens when dealing with asynchronous operations and not properly handling promises.
